@@ -1,0 +1,16 @@
+<h2>Publications</h2>
+<div class="card-container">
+    {% for item in site.data.publications %}
+    {% if item.link %}
+    <a href="{{ item.link }}" target="_blank">
+    {% else %}
+    <a>
+    {% endif %}  
+    <div class="card">
+        <div class="info">
+            <p class="title"> {{ item.title }}</p>            
+        </div>
+    </div>
+    </a>
+    {% endfor %}
+</div>
