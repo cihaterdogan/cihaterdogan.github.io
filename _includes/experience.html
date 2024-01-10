@@ -1,6 +1,6 @@
-<h2>Education</h2>
+<h2>Experience</h2>
 <div class="card-container">
-    {% for item in site.data.education %}
+    {% for item in site.data.experience %}
     {% if item.link %}
     <a href="{{ item.link }}" target="_blank">
     {% else %}
@@ -13,7 +13,7 @@
         <div class="info">
           <p class="title">{{ item.university }}</p>
           <p class="location">{{ item.department }}</p>
-          <p class="title">{{ item.title }}</p>
+          <p class="location">{{ item.title }}</p>
           <p class="dates">{{ item.dates }}</p>
         </div>
       </div>
