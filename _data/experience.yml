@@ -1,0 +1,20 @@
+- department: Department of Computer Engineering
+  university: Namik Kemal University
+  title: Research Assistant
+  dates: August, 2009 - February, 2019
+  logo: nku.png
+  link: https://www.nku.edu.tr/
+
+- department: Department of Computer Technologies
+  university: Isparta University of Applied Sciences
+  title: Assistant Professor
+  dates: February, 2019 - July, 2022
+  logo: isparta.png
+  link: https://www.isparta.edu.tr/
+
+- department: Health Information and Translational Sciences - Center for Computational Biology and Bioinformatics
+  university: Indiana University
+  title: Post-doctoral Fellow
+  dates: July, 2022 - working
+  logo: iupui.png
+  link: https://www.iu.edu/
