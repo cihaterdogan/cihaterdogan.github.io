@@ -1,0 +1,17 @@
+<h2>Citations</h2>
+<div class="card-container">
+    {% for item in site.data.citations %}
+    {% if item.link %}
+    <a href="{{ item.link }}" target="_blank">
+    {% else %}
+    <a>
+    {% endif %}
+    <div class="card">
+        <div class="info">
+            <p class="title"> {{ item.title }}</p>
+            <p class="dates"> {{ item.date }}</p>
+        </div>
+    </div>
+    </a>
+    {% endfor %}
+</div>
