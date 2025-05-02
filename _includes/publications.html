@@ -5,11 +5,12 @@
     <a href="{{ item.link }}" target="_blank">
     {% else %}
     <a>
-    {% endif %}  
+    {% endif %}
     <div class="card">
         <div class="info">
             <p class="title"> {{ item.title }}</p>
-            <p class="dates"> {{ item.date }}</p>            
+            <p class="dates"> {{ item.date }}</p>
+            <p class="description"> {{ item.journal }}</p>
         </div>
     </div>
     </a>
